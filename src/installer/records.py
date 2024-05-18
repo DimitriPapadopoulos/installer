@@ -19,9 +19,7 @@ __all__ = [
 class InvalidRecordEntry(Exception):
     """Raised when a RecordEntry is not valid, due to improper element values or count."""
 
-    def __init__(
-        self, elements: Iterable[str], issues: Iterable[str]
-    ) -> None:  # noqa: D107
+    def __init__(self, elements: Iterable[str], issues: Iterable[str]) -> None:
         super().__init__(", ".join(issues))
         self.issues = issues
         self.elements = elements
