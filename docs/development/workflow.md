@@ -8,11 +8,11 @@ on this project.
 
 This project uses the [GitHub Flow] for collaboration. The codebase is Python.
 
+- [flit] is used for automating development tasks.
 - [nox] is used for automating development tasks.
 - [pre-commit] is used for running the linters.
 - [sphinx] is used for generating this documentation.
 - [pytest] is used for running the automated tests.
-- [flit] is used for building and publishing releases.
 
 ## Repository Layout
 

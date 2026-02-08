@@ -1,5 +1,5 @@
 ```{caution}
-This API is not finalized, and may change in a patch version.
+This API is not finalised, and may change in a patch version.
 ```
 
 # `installer.scripts`
